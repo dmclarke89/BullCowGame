@@ -29,6 +29,7 @@ void printIntro()
 	std::cout << "Can you guess the " << bullCowGame.GetHiddenWordLength() << " letter isogram I'm thinking of?\n";
 }
 
+// Prints the game summary
 void printGameSummary()
 {
 	if (bullCowGame.IsGameWon())
